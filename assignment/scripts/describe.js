@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name which is set to a string named 'Dane'.
+// We create a if/else statement where the condition is that, if the variable name is equal and equal in type to 'Mary' then it will console.log 'Hi Mary!'   
+// If the variable name is not 'Mary' then the else condition will output the console.log 'How do you do?'. The variable is not equal to 'Mary'. 
+// So we console.log 'How do you do?'  
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called secret which is currenlty undefined. We create a variable called code which is set to 123. 
+// An if stament is created with a conditional where if code is equal and equal in type to the number 123. Then variable secret is equal to 'super'. variable code is equal to code muliplied by 2.   
+// So code is equal to 123. We multiply 123 by 2 which equals 246. Another if statement is created where the conditional is set where if code is greater than 250 variable secret is equal to 'duper'. code is not greater than 250.
+// We console.log(secret) as 'super'.  
+
 
 //CODE
 /*
@@ -70,10 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create the variables isStudent and set it to the boolean true, the variable age which equals 34, and the variable zip which equals 55407.  
+// We create an if statement with double ANDs where the first condition is the variable isStudent is equal and equal in type to true with the second condition is the variable zip is greater than 80000.  
+// The variable isStudent is true so we check the second condition, the variable zip is not greater than 80000.  
+// Two else if statements is nested in between the if/else statement. The first else if statement has an OR operator between the conditions, the first condition if the variable isStudent is equal and equal in type to false, the second condition is variable age being less than 30. If and only if the first condition is false then console.log('What are your hobbies?'). First conditon is true and not false. 
+// Second else if statement is if isStudent is equal and equal in type to true. Then console.log 'Welcome to Prime!'.  We Console.log 'Welcome to Prime'. 
+// else statement is set to console.log('How about the weather?'). Else statment is not outputed. 
 
 //CODE
 /*
@@ -130,6 +133,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX -color 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
