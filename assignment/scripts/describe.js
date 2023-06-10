@@ -133,11 +133,11 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX -color 
+// Fix- variable colorOne is set to red instead of blue and colorTwo is set to blue instead of red. 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+//Fix- colorOne should be set to blue. 
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -149,7 +149,8 @@ if (mix === true) {
 
 /*
 let temp = 40;
-const time = 4;
+// FIX- use the let declaration instead of const as time is not always constant.  
+const time = 4; 
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -163,8 +164,9 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//FIX- (change sign)it should be a greater than or equal to sign not a less than or equal to sign. age and minage should be switched around.  
 if(minAge <= age) {
+  //Fix- console.log for if and else stament should be switched around. it should first output 'enter' else 'no entry'  
   console.log('no entry');
 } else {
   console.log('enter');
